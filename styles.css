@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Atkinson Hyperlegible';
+    src: url('fonts/atkinson/AtkinsonHyperlegible-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('fonts/red-hat/RedHatDisplay-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    background-color: #fefefe;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+    width: 375px;
+    border: 2px solid hsl(0, 0%, 0%);
+}
+
+.header-image {
+    width: 100%;
+    overflow: hidden;
+}
+
+.card {
+    text-align: center;
+    border-radius: 16px;
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: hsl(223, 47%, 23%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card p {
+    font-size: 18px;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    margin: 16px;
+    border-radius: 16px;
+}
+
+.plan img {
+    width: 50px;
+    margin: 0 16px 0 16px;
+}
+
+.plan-details {
+    flex: 1;
+    text-align: left;
+}
+
+.plan-details h2 {
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.plan-details p {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: hsl(245, 75%, 52%);
+}
+
+.plan-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.plan-actions button {
+    padding: 0.9rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#Proceed {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    margin: 0 16px;
+}
+
+#Cancel {
+    background-color: white;
+    color: rgb(4, 4, 4);
+    margin: 16px 16px;
+    border: none;
+}
+
+.content {
+    padding: 16px;
+}
